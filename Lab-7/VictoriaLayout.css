@@ -1,0 +1,92 @@
+/*This is our css for lab 7*/
+
+#wrapper {
+  width: 1000px;
+  height: 1000px;
+}
+
+#header {
+  width: 900px;
+  height: 200px;
+  background-color: pink;
+  margin: 0 auto;
+}
+
+#Restaurant {
+  width: 150px;
+  height: 150px;
+  padding: 25px;
+}
+
+#leftContent {
+  margin-left: 50px;
+  width: 250px;
+  height: 700px;
+  background-color: blue;
+  float: left;
+}
+
+#rightContent {
+  width: 650px;
+  height: 700px;
+  background-color: yellow;
+  float: left;
+}
+
+#mainHeader {
+  position: absolute;
+  top: 75px;
+  left: 450px;
+}
+
+#bigBox {
+  width: 200px;
+  height: 200px;
+  margin: 10px 25px 10px 25px;
+  background-color: red;
+}
+
+#medBox {
+  width: 200px;
+  height: 100px;
+  margin: 10px 25px 10px 25px;
+  background-color: red;
+}
+
+.littleBox {
+  width: 50px;
+  height: 50px;
+  margin: 10px 15px 10px 15px;
+  background-color: red;
+  float: left;
+}
+
+#Content1 {
+  background-color: orange;
+}
+
+#Content2 {
+  background-color: orange;
+  text-align: center;
+}
+#Content3 {
+  width: 600px;
+  background-color: orange;
+}
+
+#leftAlign {
+  float: left;
+}
+
+#rightAlign {
+  float: right;
+}
+
+#rightAlign img {
+  height: 200px;
+  width: 200px;
+}
+
+#Content4 {
+  background-color: orange;
+}
