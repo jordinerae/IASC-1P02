@@ -1,0 +1,126 @@
+div {
+  opacity: 100%;
+}
+body {
+  background-image: url("../images/ocean.jpg");
+  background-size: 100%;
+}
+#Wrapper {
+  width: 960px;
+  height: 730px;
+  margin: 0 auto;
+}
+#Header {
+  margin: 0 auto;
+  width: 930px;
+  height: 95px;
+  border: 3px solid #65b99f;
+  background-color: white;
+}
+#Logo {
+  margin: 10px 30px 10px 10px;
+  float: left;
+  width: 100px;
+  height: 75px;
+}
+#Title {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 4px 4px 4px #65b99f;
+}
+#Tagline {
+  margin-top: 0px;
+  font-family: "Arial", Gadget, sans-serif;
+}
+#Info {
+  float: left;
+  width: 30%;
+}
+#Availability {
+  margin: 15px;
+  width: 294px;
+  height: 294px;
+  background-color: white;
+  border: 3px solid #ecb751;
+}
+#Availability h3 {
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 4px 4px 4px #ecb751;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+select {
+  font-size: 20px;
+  width: 200px;
+  margin-left: 50px;
+}
+button {
+  font-size: 25px;
+  width: 200px;
+  height: 100px;
+  margin: 30px 50px 30px 50px;
+}
+#Availability p {
+  text-align: center;
+  font-family: "Arial", Gadget, sans-serif;
+}
+#Contact {
+  margin: 15px;
+  width: 294px;
+  height: 294px;
+  background-color: white;
+  border: 3px solid #ec8f42;
+}
+#Contact h3 {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px auto;
+  text-shadow: 4px 4px 4px #ec8f42;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+#Contact p {
+  text-align: center;
+  margin: 20px auto;
+  font-family: "Arial", Gadget, sans-serif;
+}
+#allLocations {
+  margin: 15px 15px 15px 0px;
+  width: 615px;
+  float: right;
+  background-color: #a4c962;
+}
+.singleLocations {
+  display: inline-block;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  margin-right: -4px;
+}
+.singleLocations.bottomRow {
+  margin-top: 0px;
+}
+.singleLocations h4 {
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 13px;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.singleLocations img {
+  margin: 3px;
+  float: right;
+  width: 180px;
+  height: 110px;
+}
+.singleLocations ul {
+  clear: both;
+  margin-top: 150px;
+}
+.singleLocations li {
+  margin-top: 10px;
+  font-family: "Arial", Gadget, sans-serif;
+}
