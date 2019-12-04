@@ -1,0 +1,81 @@
+body {
+  background-color: #e1e5ee;
+}
+
+#Header h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  animation: typing 2s steps(200, end), blink-caret 0.75s step-end infinite;
+  font-family: Monospace;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+#Name {
+  float: left;
+}
+#Navigation {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+#Navigation h3 {
+  display: inline-block;
+  margin: 20px 25px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  clear: both;
+}
+img {
+  height: 100px;
+  width: 100px;
+  padding: 25px;
+}
+#MediaWrap {
+  margin: 0 auto;
+  width: 75%;
+}
+.Media {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 5px solid;
+  border-color: #767b91;
+  border-radius: 50%;
+  background-color: #e1e5ee;
+  transition: background-color 1s;
+  margin: 0px 9%;
+}
+
+.Media:hover {
+  background-color: #2a324b;
+}
+
+#Footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+
+#Info {
+  position: absolute;
+  text-align: center;
+}
+
+#Clock {
+  float: right;
+  margin-right: 20px;
+}
