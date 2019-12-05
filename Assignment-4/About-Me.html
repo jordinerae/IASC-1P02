@@ -3,31 +3,49 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-    <title>About Me</title>
+    <title>about me</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Solway&display=swap"
+      rel="stylesheet"
+    />
     <link href="About-Me.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="About-Me.js"></script>
   </head>
   <body>
     <div id="Header">
-      <h1>Jordine De Guzman</h1>
-      <h3><a href="About-Me.html">About Me</a></h3>
-      <h3><a href="Resume.html">Resume</a></h3>
-      <h3><a href="Social-Media.html">Social Media</a></h3>
+      <div id="Name">
+        <h1><a href="Homepage.html">jordine de guzman</a></h1>
+      </div>
+      <div id="Navigation">
+        <h3><a href="About-Me.html">about me</a></h3>
+        <h3><a href="Resume.html">resume</a></h3>
+        <h3><a href="Social-Media.html">social media</a></h3>
+      </div>
     </div>
-    <h2>About Me</h2>
-    <div>
-      <h3>School</h3>
+    <div id="titles">
+      <h2>about me</h2>
+      <h3 id="schoolButton">school</h3>
+      <h3 id="interestsButton">interests</h3>
+      <h3 id="goalsButton">goals</h3>
+    </div>
+    <div id="school" class="subsection" style="display: block;">
+      <h4>school</h4>
       <p>
         I am a fourth year Dramatic Arts student at Brock University, and I'm
         set to graduate in June 2020! I mainly focus in production courses
         because I'm hoping to work as a stage manager after graduation. I've
         already stage managed 2 full productions and 1 staged reading here at
         the school. You can see more of my work on my resume page (I'm available
-        for hire starting May 2020!)
+        for hire starting May 2020!). You might have realized by now that I am
+        by no means a web developer. I got interested in this course because my
+        boyfriend is a programmer and he kept saying that I'd find this kind of
+        stuff fun, so I decided to make IASC 1P02 one of my electives in my
+        final year. I think it was one of the best decisions I've ever made,
+        because although it's really challenging, I'm slowly but surely learning
+        some really cool stuff.
       </p>
     </div>
-    <div>
-      <h3>Interests</h3>
+    <div id="interests" class="subsection" style="display: none;">
+      <h4>interests</h4>
       <p>
         In the last couple of years I've been getting more into playing video
         games. I mainly play PC games but sometimes I'll change it up with some
@@ -35,25 +53,35 @@
         something to pass the time. I also really like dogs. A lot of my time at
         home is spent taking care of my dog, going on walks with her, or taking
         her to the dog park. After she's all tired out, she sits by me on the
-        couch while I play video games.
+        couch while I play video games. I went to the gym and did some weight
+        lifting for the first time in my life this week, and although I haven't
+        yet made it part of my routine, I'd love to one day be able to call
+        working out an interest of mine.
       </p>
     </div>
-    <div>
-      <h3>Goals</h3>
+    <div id="goals" class="subsection" style="display: none;">
+      <h4>goals</h4>
       <p>
         My main goal after graduation is to be able to support myself through
         just stage management, which is a pretty lofty thing in itself. I'd also
         love to have a nice house with a big backyard and huge windows so I can
         always be close to the outdoors (but still be able to stay in when it's
-        too cold outside). The thing about theatre is that it's not really a
-        trusty way to pay the bills, so one of my other goals is to stick with
-        programming and keep it fun for myself (and maybe I'll be able to make
-        some money off it on the side).
+        too cold outside). I'd also love to bring a couple more dogs into the
+        mix. The thing about theatre is that it's not really a trusty way to pay
+        the bills, so one of my other goals is to stick with programming and
+        keep it fun for myself (and maybe I'll be able to make some money off it
+        on the side). Another one of my goals is to become more fit! I think
+        that a person's mental health and physical health are very much tied in
+        with each other, and so I've recently been trying to work both of those
+        further up my list of priorities, so I can make taking care of myself a
+        habit before my body starts to turn on me. So I guess one of my goals is
+        just to be a happier and healthier person all around.
       </p>
     </div>
     <div id="Footer">
-      <p>Made by Jordine De Guzman, 2019</p>
-      <p>Clock goes here</p>
+      <p id="Info">made by jordine de guzman, 2019</p>
+      <p id="Clock">clock goes here</p>
     </div>
+    <script type="text/javascript" src="About-Me.js"></script>
   </body>
 </html>

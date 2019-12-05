@@ -7,8 +7,21 @@ function updateClock() {
   var currentSeconds = currentTime.getSeconds();
 
   // Pad the minutes and seconds with leading zeros, if required
-  currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
-  currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
+  var minutePrefix;
+  if (currentMinutes < 10) {
+    minutePrefix = "0";
+  } else {
+    minutePrefix = "";
+  }
+  currentMinutes = minutePrefix + currentMinutes;
+
+  var secondPrefix;
+  if (currentSeconds < 10) {
+    secondPrefix = "0";
+  } else {
+    secondPrefix = "";
+  }
+  currentSeconds = secondPrefix + currentSeconds;
 
   // Choose either "AM" or "PM" as appropriate
   var timeOfDay = currentHours < 12 ? "AM" : "PM";
